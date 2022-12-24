@@ -103,14 +103,10 @@ body {
   }
 }
 
-@keyframes moveInRight {
+@keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateX(100px);
-  }
-
-  80% {
-    transform: translateX(10px);
+    transform: translateY(30px);
   }
 
   100% {
@@ -155,6 +151,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+  transition: all 0.4s;
 }
 
 .btn-white::after {
@@ -162,5 +159,11 @@ body {
 }
 
 .btn:hover::after {
-  transform: scale(2);
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
