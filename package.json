@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "natural tours app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmdenlinger/Natours.git"
+  },
+  "author": "Paul Denlinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmdenlinger/Natours/issues"
+  },
+  "homepage": "https://github.com/pmdenlinger/Natours#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
