@@ -120,6 +120,22 @@ body {
   }
 }
 
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  80% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
@@ -156,6 +172,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+  transition: all 0.4s;
 }
 
 .btn-white::after {
@@ -163,5 +180,6 @@ body {
 }
 
 .btn:hover::after {
-  transform: scale(2);
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
