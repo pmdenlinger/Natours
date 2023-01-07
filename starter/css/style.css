@@ -63,6 +63,9 @@ body {
   font-size: 4rem;
   font-weight: 400;
   letter-spacing: 35px;
+
+  animation-name: moveInLeft;
+  animation-duration: 3s;
 }
 
 .heading-primary--sub {
