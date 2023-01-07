@@ -47,10 +47,10 @@ body {
 }
 
 .text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 40%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .heading-primary {
@@ -60,14 +60,14 @@ body {
 
 .heading-primary--main {
   display: block;
-  font-size: 4rem;
-  font-weight: 400;
-  letter-spacing: 2rem;
+  /* font-size: 4rem; */
+  /* font-weight: 400; */
+  /* letter-spacing: 2rem; */
 }
 
 .heading-primary--sub {
   display: block;
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 1.2rem;
+  /* font-size: 1rem; */
+  /* font-weight: 700; */
+  /* letter-spacing: 1.2rem; */
 }
